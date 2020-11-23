@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            margin: 20px;
+        }
+        #cabecera{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: brown;
+            height: 20vh;
+            border: 3px solid #000000;
+            border-radius: 20px;
+            margin: 20px;
+        }
+        #navegador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: burlywood;
+            height: 10vh;
+            border: 3px solid #000000;
+            margin: 20px;
+        }
+        #main{
+            
+            height: 49vh;
+        }
+        #seccion{
+            
+            float: left;
+            width: 80%;
+        }
+        #articuloSuperior{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cornflowerblue;
+            height: 25vh;
+            border: 7px dashed #000000;
+            border-radius: 20px;
+            margin: 20px;
+        }
+
+        #articuloInferior{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: cornflowerblue;
+            height: 25vh;
+            border: 7px dotted #000000;
+            border-radius: 100px;
+            margin: 20px;
+        }
+        #lateral{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid black 10px;
+            float: right;
+            height: 50vh;
+            width: 17%;
+            margin: 20px;
+            background-color: darkolivegreen;
+        }
+        #pie{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: indigo;
+            height: 10vh;
+            margin: 20px;
+            clear: both;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Header</h1>
+    </div>
+    <div id="navegador">
+        <h2>nav</h2>
+    </div>
+    <div id="main">
+        <div id= "seccion">
+            <div id="articuloSuperior">
+                <h2>article</h2>
+            </div>
+            <div id="articuloInferior">
+                <h2>article</h2>
+            </div>
+        </div>
+        <div id="lateral">
+            <h2>aside</h2>
+        </div>
+    </div>
+    <br>
+    <div id="pie">
+        <h2>footer</h2>
+    </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="Carina" />
+    <meta name="description" content="CSS" />
+    <meta name="keywords" content="anime, html, dam, leguaje, marcas" />
+    <meta name="clasification" content="programación" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width = device-width" />
+    <title>T2 - P6 - Ejercicio 1</title>
+    <style type="text/css">
+        #contenedor {
+            margin: 1%;
+            max-width: 1200%;
+        }
+        /*Diseño flexible*/
+        
+        header {
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(236, 57, 57, 0.863);
+            border-style: solid;
+            text-align: center;
+        }
+        
+        nav,
+        main {
+            display: flex;
+            margin: 1%;
+        }
+        
+        main {
+            justify-content: space-between;
+        }
+        
+        nav {
+            justify-content: space-around;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(203, 140, 255, 0.829);
+            border-style: solid;
+            font-weight: bold;
+            padding-top: 10%;
+        }
+        /*Diseño*/
+        
+        header,
+        nav,
+        section,
+        footer {
+            padding: 5px;
+        }
+        
+        nav {
+            background-color: rgba(248, 218, 120, 0.877);
+            border-style: solid;
+        }
+        
+        aside {
+            
+            background-color: rgba(113, 238, 151, 0.884);
+            border-style: solid;
+            width: 30%;
+            text-align: center;
+            line-height: 800%;
+        }
+        
+        article {
+            background-color: rgba(60, 140, 245, 0.849);
+            border-style: dashed;
+            margin: 10%;
+            width: 1700%;
+            text-align: center;
+        }
+        
+        #article {
+            border-style: dotted;
+            height: 50%;
+            border-radius: 30%;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1>header</h1>
+        </header>
+        <nav>
+            <h2>nav</h2>
+        </nav>
+        <main>
+            <section>
+                <article>
+                    <h2> article</h2>
+                </article>
+                <article id="article">
+                    <h2> article</h2>
+                </article>
+            </section>
+            <aside>
+                <h3>aside</h3>
+            </aside>
+        </main>
+        <footer>
+            <p>footer</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
