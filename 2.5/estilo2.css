@@ -1,0 +1,85 @@
+h1{
+    color: rgb(123, 255, 0);
+    font-style: normal; 
+    font-size: 21pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-radius: 30px;
+    border-style: dotted; 
+    border-color: rgb(131, 216, 255);
+}
+h2{
+    color: rgb(255, 0, 0);
+    font-style: oblique; 
+    font-size: 19pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: double; 
+    border-color: blueviolet;
+}
+p{
+    color: rgb(0, 255, 55);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(0, 255, 255, 0.582); 
+}
+ol{
+    color: rgb(0, 255, 200);
+    font-style: italic; 
+    font-size: 10pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+ul{
+    color: rgb(255, 236, 65);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+hr{
+    color: rgb(0, 132, 255);
+    border: 10px;
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+table{
+    color: rgb(255, 65, 65);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+    margin: 3%;
+}
+image{
+    color: rgb(10, 5, 5);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-radius: 50px;
+    border-color: rgb(0, 255, 34);
+    padding-left: 30px;
+}
+.tablita{
+    color: rgb(145, 255, 0);
+    font-style: oblique; 
+    font-size: 14pt;
+    padding: 40px;
+    border:  30px; 
+    border-style: inset; 
+    border-color: rgb(255, 17, 148);
+}
+#parrafo{
+    color: rgb(255, 134, 134);
+    font-style: inherit; 
+    font-size: 10pt; 
+    background-color: rgba(110, 245, 0, 0.582); 
+    border-style: inset; 
+    border-radius: 40px;
+    border-color: rgb(255, 17, 148);
+}

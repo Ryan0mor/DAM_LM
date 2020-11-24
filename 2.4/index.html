@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuestionario</title>
+</head>
+<body>
+    <h1>¿Que sabes de Inteligencia artificial?</h1>
+    <!--Este h1 es el ejercicio 1-->
+    <form name="form" method="post" action="datos.php">
+        <h2>Ejercicio 2</h2>
+        <input type="submit" name="Enviar" value="Enviar">
+
+        <h2>Ejercicio 3</h2>
+        <input type="reset" name="Limpiar formulario" value="Limpiar formulario">
+        
+        <h2>Ejercicio 4</h2>
+        <p>¿Que es un conjunto de algoritmos de aprendizaje automático que intenta modelar abstracciones de alto nivel en datos usando arquitecturas computacionales que admiten transformaciones no lineales múltiples e iterativas de datos expresados en forma matricial o tensorial?</p>
+        <input type="text" name="Ejercicio3" size="5">
+        
+        <h2>Ejercicio 5</h2>
+        <p>¿Que es un programa de computación diseñado para realizar determinadas operaciones que se consideran propias de la inteligencia humana, como el autoaprendizaje?</p>
+        <input type="checkbox" name="Ejercicio4" value="Deep learning"/><label>Deep learning</label>
+        <input type="checkbox" name="Ejercicio4" value="Machine learning"/><label>Machine learning</label>
+        <input type="checkbox" name="Ejercicio4" value="inteligencia artificial"/><label>inteligencia artificial</label>
+
+        <h2>Ejercicio 6</h2>
+        <p>¿Que es un programa de computación diseñado para realizar determinadas operaciones que se consideran propias de la inteligencia humana, como el autoaprendizaje?</p>
+        <input type="radio" name="Ejercicio5" value="Deep learning"/><label>Deep learning</label>
+        <input type="radio" name="Ejercicio5" value="Machine learning"/><label>Machine learning</label>
+        <input type="radio" name="Ejercicio5" value="inteligencia artificial"/><label>inteligencia artificial</label>
+        
+        <h2>Ejercicio 7</h2>
+        <p>¿Que es un programa de computación diseñado para realizar determinadas operaciones que se consideran propias de la inteligencia humana, como el autoaprendizaje?</p>
+        <select name="Ejercicio6">
+            <option value="Deep learning">Deep learning</option>
+            <option value="Machine learning">Machine learning</option>
+            <option value="inteligencia artificial">inteligencia artificial</option>          
+        </select>
+        
+        <h2>Ejercicio 8</h2>
+        <p>¿De que color crees que son las neuronas artificales?</p>
+        <input type="color" name="Ejercicio8" value="#ff0000">
+
+        <h2>Ejercicio 9</h2>
+        <p>¿En que fecha se desarrolló el primer modelo de ML?</p>
+        <input type="date" name="Ejercicio9">
+
+        <h2>Ejercicio 10</h2>
+        <p>Sube un archivo para que mi superinteligencia se lo aprenda</p>
+        <input type="file" name="Ejercicio10">
+
+        <h2>Ejercicio 11</h2>
+        <p>Del 0 al 10 cuanto te preocupa que la máquinas conquisten la humanidad</p>
+        <input type="range" name="Ejercicio11" min="0" max="10">
+
+        <h2>Ejercicio 12</h2>
+        <p>Ponga aqui la matricula de tu coche y mi IA te lo hackea en plan watch dogs</p>
+        <input type="text" name="Ejercicio12" pattern="[0-9]{4}-[a-Z]{3}" required>
+        
+        <h2>Ejercicio 13</h2>
+        <iframe src="https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico" width="700" height="400">Tienes un navegador muy viejo si no te reconoce un iframe</iframe>
+        
+        <h2>Ejercicio 15</h2>
+        <button type="button" onclick="miFuncion()">Pulsa para ver tu premio</button>
+        <br>
+        <img id="miImagen" src="https://media3.giphy.com/media/7NS9RAepPQ0HJ85qJz/200.gif" width="200" height="200">
+        <!--Aqui un pequeño script para cambiar de imagen-->
+        <script>
+            function miFuncion(){
+                var pic = "https://media2.giphy.com/media/NtZ80biWTGa88/200.gif";
+                document.getElementById('miImagen').src = pic;
+            }
+        </script>
+    </form>
+</body>
+</html>

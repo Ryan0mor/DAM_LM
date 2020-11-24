@@ -1,0 +1,82 @@
+h1{
+    color: rgb(0, 47, 255);
+    font-style: oblique; 
+    font-size: 44pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+h2{
+    color: rgb(0, 26, 255);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+p{
+    color: rgb(0, 255, 55);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+ol{
+    color: rgb(255, 65, 65);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+ul{
+    color: rgb(255, 65, 65);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+hr{
+    color: rgb(0, 132, 255);
+    border: 10px;
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+table{
+    color: rgb(255, 65, 65);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(131, 216, 255);
+}
+image{
+    color: rgb(10, 5, 5);
+    font-style: oblique; 
+    font-size: 14pt; 
+    background-color: rgba(240, 255, 255, 0.582); 
+    border-style: inset; 
+    border-color: rgb(0, 255, 34);
+}
+.tablita{
+    color: rgb(145, 255, 0);
+    font-style: oblique; 
+    font-size: 14pt;
+    padding: 40px;
+    border:  30px; 
+    border-style: inset; 
+    border-color: rgb(255, 17, 148);
+}
+#parrafo{
+    color: rgb(145, 255, 0);
+    font-style: inherit; 
+    font-size: 6pt; 
+    background-color: rgba(0, 4, 245, 0.582); 
+    border-style: inset; 
+    border-color: rgb(255, 17, 148);
+}
