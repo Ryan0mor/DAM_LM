@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/ico" href="https://www.iconarchive.com/download/i109565/cjdowner/cryptocurrency-flat/ICON-ICX.ico">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="https://www.iconarchive.com/download/i109565/cjdowner/cryptocurrency-flat/ICON-ICX.ico" alt="El logotipo de mi chuleta">
+        </a>
+        <h1>Elementos html para crear formularios</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contenido.html">Contenido</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
+        
+    </nav>
+    <main>
+        <form name="form" method="post" action="datos.php">
+
+            <h2>Input tipo Texto</h2>
+            <input type="text" name="Ejercicio3" size="5">
+            
+            <h2>Input tipo Checkbox</h2>
+            <input type="checkbox" name="Ejercicio4" value="Deep learning"/><label>Deep learning</label>
+            <input type="checkbox" name="Ejercicio4" value="Machine learning"/><label>Machine learning</label>
+    
+            <h2>Input tipo Radio Button</h2>
+            <input type="radio" name="Ejercicio5" value="Deep learning"/><label>Deep learning</label>
+            <input type="radio" name="Ejercicio5" value="Machine learning"/><label>Machine learning</label>
+            
+            <h2>Input tipo Lista</h2>
+            <select name="Ejercicio6">
+                <option value="Deep learning">Deep learning</option>
+                <option value="Machine learning">Machine learning</option>     
+            </select>
+            
+            <h2>Input tipo Color</h2>
+            <input type="color" name="Ejercicio8" value="#ff0000">
+    
+            <h2>Input tipo Fecha</h2>
+            <input type="date" name="Ejercicio9">
+    
+            <h2>Input para subir archivo</h2>
+            <input type="file" name="Ejercicio10">
+    
+            <h2>Input tipo Slider/Range</h2>
+            <input type="range" name="Ejercicio11" min="0" max="10">
+    
+            <h2>Input tipo Texto con patrón (matrícula)</h2>
+            <input type="text" name="Ejercicio12" pattern="[0-9]{4}-[a-Z]{3}" required>
+            
+            <h2>Botón para enviar</h2>
+            <input type="submit" name="Enviar" value="Enviar">
+
+            <h2>Botón para limpiar formulario</h2>
+            <input type="reset" name="Limpiar formulario" value="Limpiar formulario">
+
+            <h2>Botón con iteractividad</h2>
+            <button type="button" onclick="miFuncion()">Botón con iteractividad</button>
+            <br>
+            <img id="miImagen" src="https://media3.giphy.com/media/7NS9RAepPQ0HJ85qJz/200.gif" width="200" height="200">
+            <!--Aqui un pequeño script para cambiar de imagen-->
+            <script>
+                function miFuncion(){
+                    var pic = "https://media2.giphy.com/media/NtZ80biWTGa88/200.gif";
+                    document.getElementById('miImagen').src = pic;
+                }
+            </script>
+        </form>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="tel:+4733378901">4733378901</a></li>
+            <li><a href="mailto:lmomedasryan@gmail.com">lmomedasryan@gmail.com</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>                
+        </ul>
+        
+    </footer>
+</body>
+</html>
