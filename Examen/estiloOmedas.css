@@ -1,0 +1,98 @@
+* {    
+    box-sizing: border-box;
+}
+
+/*Fondo tabla ejercicio 6*/
+.celdasTabla{
+    background-color: blue;
+    color: white;
+}
+
+/*El cuerpo solo de la pagina okapi.html*/
+.bodyOkapi{
+    background-color: rgb(145, 255, 191);
+}
+
+/*la imagen de la página index.html ejercicio 3*/
+.imgP{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+/*Estilo según ancho de pantalla para Section y Aside, Ejercicio 7*/
+@media screen and (min-width: 800px){
+    section{
+        float: left;
+        background-color: blanchedalmond;
+        border: black dotted 5px;
+        width: 40%;
+        margin: 5%;
+        padding: 5%;
+    }
+    
+    aside {
+        float: right;
+        width: 40%;
+        margin: 5%;
+        padding: 5%;
+        border: black solid 3px;
+        border-radius: 40px;
+    }
+}
+@media screen and (max-width: 800px){
+    section{
+        background-color: blanchedalmond;
+        border: black dotted 5px;
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+    }
+    
+    aside {
+        width: 90%;
+        margin: 5%;
+        padding: 5%;
+        border: black solid 3px;
+        border-radius: 40px;
+    }
+}
+
+/*La tabla de dentro de aside*/
+aside table {
+    width: 100%;
+    height: 100%;
+}
+
+/*el botón de la pagina okapi.html*/
+#botonRojo{
+    background-color: red;
+    padding: 10px;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+/* Esto centra el botón de la pagina okapi.html*/
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/*ejer 3: estilo titulo*/
+header{    
+    display: flex;
+    justify-content: center;
+    background-color: gold;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    border: black dotted 10px;
+    border-radius: 20px; 
+    color: green;
+    font-size: 30px;
+}
+
+/*para hacer que en contenidos.html desborde*/
+#contenedorContenidos{
+    width: 120%;
+}

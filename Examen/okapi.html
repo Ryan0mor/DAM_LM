@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okapi</title>
+    <link rel="stylesheet" href="estiloOmedas.css">
+    <!--Ejer4: el icono de la pestaña-->
+    <link rel="icon" type="image/ico" href="linkedContent\A06.png">
+    <!--Ejer5: Metadatos de autor y descripción-->
+    <meta name="author" content="Ryan" />
+    <meta name="description" content="esto es una description sobre una web de okapis" />
+</head>
+<body class="bodyOkapi">
+    <header>
+        <h1>El Okapi</h1>
+    </header>
+    <main>
+        <section>
+            <!--Ejer6: listado-->
+            <ol>
+                <li> Alimentación
+                    <ol type="a">
+                        <li>Pequeños roedores</li>
+                        <li>Frutos</li>
+                        <li>Pequeños roedores</li>
+                        <li>Frutos</li>
+                        <li>Pequeños roedores</li>
+                        <li>Frutos</li>
+                       
+                    </ol>
+                </li>
+                <li> 
+                    <abbr title="Aunque estos son los promedidos de esperanxza de vida se regitró un caso de 44 años">Longevidad</abbr>
+                    <ol type="a"> 
+                        <li>Machos: 15 años</li>
+                        <li>Hembras: 19 años</li>
+                        <li>Machos: 15 años</li>
+                        <li>Hembras: 19 años</li>
+                        <li>Machos: 15 años</li>
+                        <li>Hembras: 19 años</li>
+
+
+                    </ol>
+                </li>
+            </ol>
+        </section>
+        <aside>
+            <h2>¿Que sabes del Okapi?</h2>
+            <!--Ejer6: formulario tabla-->
+            <form name="formulario" method="post" action="servidor.php">
+                <!--Ejer6: Tabla-->
+                <table border="1px">
+                    <tr>
+                        <th colspan="3" class="celdasTabla">¿En que continente predomina?</th>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="formulario" value="radioOption01"/><label>Europa</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="formulario" value="radioOption02"/><label>África</label>
+                        </td>
+                        <td>
+                            <input type="radio" name="formulario" value="radioOption03"/><label>América</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5" colspan="2" class="celdasTabla">Características</td>
+                        <td>
+                            <input type="checkbox" name="formulario" value="checkBox01"/><label>Ovíparo</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="formulario" value="checkBox02"/><label>Mamífero</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="formulario" value="checkBox03"/><label>Terrestre</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="formulario" value="checkBox04"/><label>Acuático</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" name="formulario" value="checkBox05"/><label>Volador</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center">
+                            <input type="submit" name="formulario" value="Enviar">
+                        </td>
+                    </tr>
+                </table>
+
+            </form>
+           
+        </aside>
+    </main>
+    <footer>
+        <a href="multimedia.html"><button id="botonRojo">MULTIMEDIA</button></a>           
+    </footer>   
+        
+</body>
+</html>

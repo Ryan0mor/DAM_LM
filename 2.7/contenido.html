@@ -3,39 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/ico" href="https://www.iconarchive.com/download/i109565/cjdowner/cryptocurrency-flat/ICON-ICX.ico">
+    <link rel="icon" type="image/ico" href="linkedContent\web-logo.png">
     <title>Contenido html</title>
     <link rel="stylesheet" href="style.css">
     <meta http-equiv=”Content-Language” content=”es”/>
     <meta name="author" content="Ryan" />
-    <meta name="description" content="Esto es una práctica de lenguaje de marcas" />
+    <meta name="description" content="Esto es contenido html" />
     <meta name="keywords" content="prácticas, html, dam, leguaje, marcas" />
     <meta name="clasification" content="lenguaje de marcas"/>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
-        <h1>header</h1>
+        <a href="index.html">
+            <img src="linkedContent\web-logo.png" alt="El logotipo de mi chuleta">
+        </a>
+        <a name="enlaceInterno"></a><h1>Contenido en html</h1></a>
     </header>
     <nav>
-        <h2>nav</h2>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contenido.html">Contenido</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="sitemap.html">Sitemap</a></li>
+        </ul>
     </nav>
     <main>
         <section>
-            <h2>Contenido en html</h2>
-
-            <h3>Procesado de textos</h3>
-            <h4>Texto en negrita</h4>
+            <h2>Procesado de textos</h2>
+            <h3>Texto en negrita</h3>
             <p>La etiqueta <b>/b</b> es simular a la etiqueta <strong>/strong</strong> pero esta última tiene repercusión en el SEO</p>
-            <h4>Texto preformateado</h4>
+            <h3>Texto preformateado</h3>
             <pre> Este se muestra en una fuente fija, no proporcional, exactamente como es mostrado en el archivo.</pre>
-            
-            <pre> Esta etiqueta  es como la etiqueta <abbr title="Párrafo">p</abbr> pero con ancho fijo</pre>
+            <h3>Abreviación</h3>
+            <p> Asi se hace la Abreviación en <abbr title="HyperText Markup Language">html</abbr> </p>
 
+            <h2>Linea horizontal</h2>
             <hr/>
 
-            <h3>Tabla</h3>
-            <table cellpadding="5px" cellspacing="3px" align="center" border="2px">
+            <h2>Tablas</h2>
+            <table cellpadding="5px" cellspacing="3px" border="1px">
                 <tr>
                     <th>Header01</th>
                     <th>Header02</th>
@@ -58,21 +65,108 @@
                 <tr>
                     <td colspan="3" align="center">Fila triple</td>
                 </tr>
-    
             </table>
+
+            <h2>Listas</h2>
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+                <li>Elemento 6</li>
+                <li>Elemento 7</li>
+                <li>Elemento 8</li>
+                <li>Elemento 9</li>
+            </ul>
+            <h3>Lista ordenada</h3>
+            <ol>
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+                <li>Elemento 4</li>
+                <li>Elemento 5</li>
+                <li>Elemento 6</li>
+                <li>Elemento 7</li>
+                <li>Elemento 8</li>
+                <li>Elemento 9</li>
+            </ol>
+
+            <h3>Lista descriptiva</h3>
+            <dl>
+                <dt>Termino 1</dt>
+                <dd>Description 1</dd>
+                <dt>Termino 2</dt>
+                <dd>Description 2</dd>
+                <dt>Termino 3</dt>
+                <dd>Description 3</dd>
+                <dt>Termino 4</dt>
+                <dd>Description 4</dd>
+                <dt>Termino 5</dt>
+                <dd>Description 5</dd>
+                <dt>Termino 6</dt>
+                <dd>Description 6</dd>
+                <dt>Termino 7</dt>
+                <dd>Description 7</dd>
+                <dt>Termino 8</dt>
+                <dd>Description 8</dd>
+                <dt>Termino 9</dt>
+                <dd>Description 9</dd>
+            </dl>
+
         </section>
         <aside>
+            <h2>Imágenes</h2>
+            <h3>Imagen estandar con link</h3>
+            <div class="imagen">
+                <a href="https://inteligenciaartificial.io/machine-learning/"><img src="https://www.consafelogistics.com/wp-content/uploads/2019/09/AI-definitions-new-1024x672.png" alt="Infografía Machine Learning" width="20%"></a>
+                <p>Infografía DL vs ML vs AI</p>
+            </div>
+            <h3>Imagen con links en Mapa</h3>
+            <div class="imagen">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Red_and_blue_pill.jpg" width="300" height="200" alt="elige la pildora" usemap="#aimap">
+                <map name="aimap">
+                    <area shape="circle" coords="100, 100, 40"  alt="pildora roja"
+                    href="https://fibropositivas.files.wordpress.com/2018/04/meme-medicinas2.png?w=620">
+                    <area shape="circle" coords="200, 100, 40"  alt="pildora roja"
+                    href="https://cdn.memegenerator.es/imagenes/memes/full/3/38/3386108.jpg">
+                </map>
+                <p>Elige la píldora</p>
+            </div>
             
+
+            <h2>Audio</h2>
+            <h3>Audio embebido</h3>
+            <p>Este elemento no se muestra, solo se oye</p>
+            <embed src="linkedContent\N.E.R.D & Rihanna - Lemon.mp3" autostart="true" loop="true" width="0" height="0"/>
+            <h3>Reproductor de audio</h3>
+            <audio controls>
+                <source src="linkedContent\N.E.R.D & Rihanna - Lemon.mp3" type="audio/mp3">
+            </audio>
+
+            <h2>Video</h2>
+            <h3>Video de YT con iframe</h3>
+            <div class="imagen">
+                <iframe width="300" height="200" src="https://www.youtube.com/embed/KytW151dpqU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Recomiendo seguir este canal</p>
+            </div>
+
+            <h2>Hipervínculos</h2>
+            <h3>Botón</h3>
+            <a href="#enlaceInterno"><button>Botón</button></a>  
+
+            <h3>Enlace interno</h3>
+            <a id="texto" href="#enlaceInterno">Vamos arrriba!</a>
+
         </aside>
+ 
     </main>
     <br>
-    <footer>
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="tel:+4733378901">4733378901</a></li>
-            <li><a href="mailto:lmomedasryan@gmail.com">lmomedasryan@gmail.com</a></li>
-            <li><a href="sitemap.html">Sitemap</a></li>                
-        </ul>
+    <footer class="footerNotHome">
+        <a href="index.html">
+            <img class="imgReturn" src="linkedContent/icon-home.png" alt="vuelve a home">
+        </a>
     </footer>
 </body>
 </html>
