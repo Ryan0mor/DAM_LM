@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<paises>
+   <pais>
+        <capital coordenadas = "28°42′N 77°12′E">Nueva Delhi</capital>
+        <ciudadMasPoblada>Bombay</ciudadMasPoblada>
+        <pais continente="Ásia">India</pais>
+        <idiomaoficial>Hindi</idiomaoficial>
+        <gentilicio>Indio, -a</gentilicio>
+        <formaDeGobierno>República Federal Parlamentaria
+            <presidente>Ram Nath Kovind</presidente>
+            <primerMinistro>Narendra Modi</primerMinistro>
+        </formaDeGobierno>
+        <organoLegislativo>Parlamento de la India</organoLegislativo>
+        <superficie puesto = "7">
+            <total medida = "km²">3287263</total>
+            <agua medida="%">9,5</agua>
+        </superficie>
+        <poblacióntotal>26.454.000 hab</poblacióntotal>
+        <densidad>6.037 hab/km2</densidad>
+   </pais>
+   <pais>
+        <nombre>República Portuguesa</nombre>
+        <capital coordenadas="38°44′43″N 9°09′37″O">Lisboa</capital>
+        <ciudadMasPoblada>Lisboa</ciudadMasPoblada>
+        <idiomaOficial>Portugués y Mirandés</idiomaOficial>
+        <gentilicio>portugués, -a y luso, -a</gentilicio>
+        <formaDeGobierno>República unitaria semipresidencialista
+            <presidente>Marcelo Rebelo de Sousa</presidente>
+            <primerMinistro>António Costa</primerMinistro>
+        </formaDeGobierno>
+        <organoLegislativo>Asamblea de la República</organoLegislativo>
+        <independencia>del Reino de León
+            <hito nombr="Paz de Zamora">5 de octubre de 1143</hito>
+            <hito nombre="República">5 de octubre de 1910</hito>
+            <hito nombre="Estado Novo">28 de mayo de 1926</hito>
+            <hito nombre="Actualidad">25 de abril de 1974</hito>
+        </independencia>
+        <superficie puesto = "111">
+            <total medida = "km²">92090</total>
+            <agua medida="%">0,5</agua>
+        </superficie>
+        <fronteras>1224 km​</fronteras>
+        </pais>
+   <pais>
+        <nombre>República Árabe de Egipto</nombre>
+        <capital coordenadas="30º03’22″ N 31º14’22″ O">El Cairo</capital>
+        <ciudadMasPoblada>El Cairo</ciudadMasPoblada>
+        <idioma>Árabe y Árabe Egipcio</idioma>
+        <gentilicio>egipcio, -a</gentilicio>
+        <formaDeGobierno>República semipresidencialista
+            <presidente>Abdelfatah Al-Sisi</presidente>
+            <primerMinistro>Mostafá Madbuli</primerMinistro>
+        </formaDeGobierno>
+        <organoLegislativo>Parlamento de Egipto</organoLegislativo>
+        <superficie puesto = "30">
+            <total medida = "km²">1001450</total>
+            <agua medida="%">0,6</agua>
+        </superficie>
+        <fronteras>2 612 km​</fronteras>
+        <puntoMasAlto>Monte Catalina</puntoMasAlto>
+   </pais>
+</paises>

@@ -1,0 +1,68 @@
+<paises>
+    <pais>
+        <capital coordenadas = "44º24'00N 26º05'00E" >Bucarest</capital>
+        <idiomasOficiales>
+            <idioma>Rumano</idioma>
+        </idiomasOficiales>
+        <gentilicio>Rumano</gentilicio>
+        <formaDeGobierno>República semipresidencialista</formaDeGobierno>
+        <presidente>Klaus Iohannis</presidente>
+        <primerMinistro>Ludovic Orban</primerMinistro>
+        <organoLegislativo>Parlamento de Rumania</organoLegislativo>
+        <formacion>
+            <hito>
+                <nombre>Principado Valaco</nombre>
+                <anio>1330</anio>
+            </hito>
+            <hito>
+                <nombre>Principado Moldavo</nombre>
+                <anio>1346</anio>
+            </hito>
+            <hito>
+                <nombre>Principado Transivano</nombre>
+                <anio>1570</anio>
+            </hito>
+            <hito>
+                <nombre>Tripríncipe común</nombre>
+                <anio>1600</anio>
+            </hito>
+            <hito>
+                <nombre>Principado rumano</nombre>
+                <anio>1859</anio>
+            </hito>
+            <hito>
+                <nombre>Independencia</nombre>
+                <opresor>Imperio Otomano</opresor>
+                <subHito>
+                    <nombre>Declarada</nombre>
+                    <anio>1877</anio>
+                </subHito>
+                <subHito>
+                    <nombre>Reconocida</nombre>
+                    <anio>1878</anio>
+                </subHito>
+            </hito>
+            <hito>
+                <nombre>Reino de Rumania</nombre>
+                <anio>1881</anio>
+            </hito>
+            <hito>
+                <nombre>Gran Unión Rumana</nombre>
+                <anio>1918</anio>
+            </hito>
+            <hito>
+                <nombre>República Comunista</nombre>
+                <anio>1947</anio>
+            </hito>
+            <hito>
+                <nombre>República actual</nombre>
+                <anio>1989</anio>
+            </hito>
+        </formacion>
+        <superficie puesto = "83º">
+            <superficieTotal>238391km2</superficieTotal>
+            <porcentajeAgua>3,0%</porcentajeAgua>
+        </superficie>
+        <frontera>2844km</frontera>       
+    </pais>
+</paises>
