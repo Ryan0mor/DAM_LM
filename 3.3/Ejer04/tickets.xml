@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ticket SYSTEM "tickets.dtd">
+<tickets>
+	<ticket cod="t00037">
+		<datosTicket>
+			<fecha>
+				<dia>22</dia>
+				<mes>12</mes>
+				<ano>2018</ano>
+			</fecha>
+			<hora>12:23:12</hora>
+			<precioTotal moneda="Euro">
+				<precioSinIva>10,5</precioSinIva>
+				<pvp iva=”&G;”>12,75</pvp>
+			</precioTotal>
+			<formaPago tipo="Efectivo">
+				<dineroEntregado>99</dineroEntregado>
+				<cambios>0</cambios>
+				<tarjeta tipo="null">
+					<numero>null</numero>
+					<cliente>null</cliente>
+				</tarjeta>
+			</formaPago>
+			<imgTicket nombre="ticket12" formato="jpg" />
+		</datosTicket>
+		<datosComercio>
+			<nombre>El Rincon</nombre>
+			<dir>C/ Santander Nº12</dir>
+			<cif>989889A</cif>
+			<telf>976121212</telf>
+		</datosComercio>
+		<datosCompra>
+			<lineaCompra>
+				<nombre>Barra Pan</nombre>
+				<cantidad>10</cantidad>
+				<precio iva="&G;">1</precio>
+				<pvpLinea>12,1</pvpLinea>
+			</lineaCompra>
+		</datosCompra>
+	</ticket>
+</tickets>

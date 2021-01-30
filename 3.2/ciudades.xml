@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standtalone="no"?>
+<!DOCTYPE ciudades SYSTEM "ciudades.dtd">
+<ciudades>
+    <ciudad>
+        <nombre>Nueva Delhi</nombre>
+        <pais>India</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>Lisboa</nombre>
+        <pais>Portugal</pais>
+    </ciudad>
+    <ciudad>
+        <nombre>El Cairo</nombre>
+        <pais>Egipto</pais>
+    </ciudad>
+</ciudades>

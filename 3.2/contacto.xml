@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standtalone="no"?>
+<!DOCTYPE contacto SYSTEM "contacto.dtd">
+<contacto>
+    <nombre></nombre>
+    <dir>
+        <calle></calle>
+        <cp></cp>
+        <ciudad></ciudad>
+    </dir>
+    <datosCon>
+        <telf></telf>
+        <movil></movil>
+        <mail></mail>
+    </datosCon>
+</contacto>

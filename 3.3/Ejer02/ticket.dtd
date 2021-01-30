@@ -1,0 +1,41 @@
+<!ELEMENT ticket (datosTicket, datosComercio, datosCompra)>
+<!ATTLIST ticket cod ID #REQUIRED>
+<!ELEMENT datosTicket (fecha, hora, precioTotal, formaPago, imgTicket)>
+<!ELEMENT fecha (dia, mes, ano)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT precioTotal (precioSinIva, pvp)>
+<!ATTLIST precioTotal moneda #FIXED "Euro">
+<!ELEMENT precioSinIva (#PCDATA)>
+<!ELEMENT pvp (#PCDATA)>
+<!ELEMENT formaPago (tarjeta)>
+<!ATTLIST formaPago tipo (Efectivo | tarjeta) #REQUIRED>
+<!ELEMENT dineroEntregado (#PCDATA)>
+<!ELEMENT cambios (#PCDATA)>
+<!ELEMENT tarjeta (numero, cliente)>
+<!ATTLIST tarjeta tipo #REQUIRED>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT cliente (#PCDATA)>
+<!ELEMENT imgTicket (#PCDATA)>
+<!ATTLIST imgTicket nombre #REQUIRED>
+<!ATTLIST imgTicket formato #REQUIRED>
+<!NOTATION GIF SYSTEM "image/gif">
+<!NOTATION PNG SYSTEM "image/png">
+<!NOTATION JPG SYSTEM "image/jpg">
+<!ELEMENT datosComercio (nombre, dir, cif, telf)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dir (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT telf (#PCDATA)>
+<!ELEMENT datosCompra (lineaCompra)+>
+<!ELEMENT lineaCompra (nombre, cantidad, precio, pvpLinea)+>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio iva #REQUIRED>
+<!ENTITY G "4">
+<!ENTITY G "10">
+<!ENTITY G "21">
+<!ELEMENT pvpLinea (#PCDATA)>

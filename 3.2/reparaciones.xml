@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standtalone="no"?>
+<!DOCTYPE reparaciones SYSTEM "reparaciones.dtd">
+<reparaciones>
+    <reparacion>
+        <vehiculo>
+            <matricula></matricula>
+            <marca></marca>
+            <modelo></modelo>
+        </vehiculo>
+        <trabajoRelizado>
+            <desc></desc>
+            <duracion>40</duracion>
+        </trabajoRelizado>
+        <factura>
+            <cod></cod>
+            <totalAPagar></totalAPagar>
+            <modoPago></modoPago>
+        </factura>
+    </reparacion>
+    <reparacion>
+        <vehiculo>
+            <matricula></matricula>
+            <marca></marca>
+            <modelo></modelo>
+        </vehiculo>
+        <trabajoRelizado>
+            <desc></desc>
+            <duracion></duracion>
+        </trabajoRelizado>
+        <factura>
+            <cod></cod>
+            <totalAPagar></totalAPagar>
+            <modoPago></modoPago>
+        </factura>
+    </reparacion>
+</reparaciones>
